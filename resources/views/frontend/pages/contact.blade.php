@@ -103,10 +103,6 @@
 				</div>
 			</div>
 	</section>
-	<!--/ End Contact -->
-	
-	
-	<!-- Start Shop Newsletter  -->
 	@include('frontend.layouts.newsletter')
 	<!-- End Shop Newsletter -->
 	<!--================Contact Success  =================-->
