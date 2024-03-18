@@ -5,6 +5,7 @@
 /storage/*
 !/storage/app/public
 .env.backup
+.env
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
