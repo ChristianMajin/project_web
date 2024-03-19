@@ -8,13 +8,13 @@
 					<!-- Single Widget -->
 					<div class="single-footer about">
 						<div class="logo">
-							<a href="index.html"><img src="{{asset('backend/img/logo2.png')}}" alt="#"></a>
+							<a href="AddToCart"><img src="AddToCart" alt="#"></a>
 						</div>
 						@php
 						$settings=DB::table('settings')->get();
 						@endphp
-						<p class="text">@foreach($settings as $data) {{$data->short_des}} @endforeach</p>
-						<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">@foreach($settings as $data) {{$data->phone}} @endforeach</a></span></p>
+						<p class="text">High Quality Clothes store</p>
+						<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">0910101010</a></span></p>
 					</div>
 					<!-- End Single Widget -->
 				</div>
@@ -53,9 +53,9 @@
 						<!-- Single Widget -->
 						<div class="contact">
 							<ul>
-								<li>@foreach($settings as $data) {{$data->address}} @endforeach</li>
-								<li>@foreach($settings as $data) {{$data->email}} @endforeach</li>
-								<li>@foreach($settings as $data) {{$data->phone}} @endforeach</li>
+								<li>Dagupan, City</li>
+								<li>0910101010</li>
+								<li>addtocart@gmail.com</li>
 							</ul>
 						</div>
 						<!-- End Single Widget -->
@@ -73,7 +73,7 @@
 				<div class="row">
 					<div class="col-lg-6 col-12">
 						<div class="left">
-							<p>Copyright © {{date('Y')}} <a href="https://github.com/Prajwal100" target="_blank">Prajwal Rai</a> - All Rights Reserved.</p>
+							<p>Copyright © {{date('Y')}} <a href="https://github.com/Prajwal100" target="_blank">addtoccart</a> - All Rights Reserved.</p>
 						</div>
 					</div>
 					<div class="col-lg-6 col-12">
